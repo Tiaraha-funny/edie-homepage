@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-Regular.woff2") format("woff2"), url("./fonts/Heebo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+body > [type="checkbox"]:checked ~ header label {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0; }
+
+body > [type="checkbox"]:checked ~ nav {
+  transform: translate(0);
+  transition: transform 0.3s; }
+
+[type="checkbox"] {
+  position: absolute;
+  top: 15px;
+  right: 0; }
+
+@media (min-width: 768px) {
+  [type="checkbox"] {
+    width: 0;
+    height: 0; } }
+
+.dropdown__menu {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  float: right; }
+
+.navigation {
+  clear: both;
+  position: absolute;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  transform: translate(-110%);
+  transition: transform 0.3s;
+  z-index: 1; }
+
+.navigaton__lists--items {
+  list-style: none; }
+
+.navigaton__lists--items a {
+  text-decoration: none;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #000000; }
+
+.navigaton__lists--items a:hover {
+  color: #ffffff; }
+
+.home {
+  background-image: url(../icons/home.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-inline-start: 3rem; }
+
+.service {
+  background-image: url(../icons/service.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-inline-start: 3rem; }
+
+.contact {
+  background-image: url(../icons/contact.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-inline-start: 3rem; }
+
+.work {
+  background-image: url(../icons/work.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-inline-start: 3rem; }
+
+.client {
+  background-image: url(../icons/client.svg);
+  background-position: left;
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  padding-inline-start: 3rem; }
+
+@media (min-width: 768px) {
+  .navigation {
+    background-color: transparent;
+    transform: none;
+    transition: none;
+    line-height: 0; }
+  .navigation__lists {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: max-content; }
+  .navigaton__lists--items a {
+    background-image: none;
+    text-transform: capitalize; }
+  .dropdown__menu img {
+    width: 0; } }
