@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Heebo";
+}
+
+h2, h3 {
+    font-family: "Poppins";
+    color: #333333
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (min-width: 1440px) {
+    main {
+        padding-top: 40px;
+    }
+}

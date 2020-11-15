@@ -1,9 +1,33 @@
 @font-face {
   font-family: "Heebo";
-  src: url("./fonts/Heebo-Regular.woff2") format("woff2"), url("./fonts/Heebo-Regular.woff") format("woff");
+  src: url("../fonts/Heebo-Regular.woff2") format("woff2"), url("../fonts/Heebo-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  box-sizing: border-box; }
+
+h1 {
+  font-family: "Heebo"; }
+
+h2, h3 {
+  font-family: "Poppins";
+  color: #333333; }
+
+img {
+  max-width: 100%; }
+
+@media (min-width: 1440px) {
+  main {
+    padding-top: 40px; } }
 
 body > [type="checkbox"]:checked ~ header label {
   height: 100%;
@@ -20,7 +44,7 @@ body > [type="checkbox"]:checked ~ nav {
   top: 15px;
   right: 0; }
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   [type="checkbox"] {
     width: 0;
     height: 0; } }
@@ -88,7 +112,7 @@ body > [type="checkbox"]:checked ~ nav {
   background-repeat: no-repeat;
   padding-inline-start: 3rem; }
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   .navigation {
     background-color: transparent;
     transform: none;
@@ -104,3 +128,74 @@ body > [type="checkbox"]:checked ~ nav {
     text-transform: capitalize; }
   .dropdown__menu img {
     width: 0; } }
+
+.main__heading,
+.description__container {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.favorite {
+  text-decoration: none;
+  font-family: "Poppins";
+  color: #2D9CDB; }
+
+.main__headers {
+  width: 100%; }
+
+.description img {
+  border-radius: 18px; }
+
+.description__container--header {
+  width: 60%;
+  font-size: 24px;
+  line-height: 36px; }
+
+.description__container--content {
+  color: #4f4f4f;
+  line-height: 18px; }
+
+.interest {
+  color: #828282;
+  line-height: 15px; }
+
+.get__in--touch {
+  margin-top: 16px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.get__in--touch input {
+  background-color: #f2f2f2;
+  outline: none;
+  border: 1px solid #f2f2f2; }
+
+::placeholder {
+  color: #bdbdbd; }
+
+.get__in--touch button {
+  padding: 16px;
+  width: 30%;
+  background-color: #2d9cdb;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  outline: none; }
+
+.description__container--heading {
+  width: 60%; }
+
+@media (min-width: 1440px) {
+  .main__heading,
+  .description__container {
+    width: 38%;
+    margin: auto;
+    margin-left: 250px;
+    font-size: 30px; }
+  .description__container--content {
+    line-height: 40px; }
+  .favorite {
+    font-size: 20px; } }
