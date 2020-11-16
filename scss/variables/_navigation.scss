@@ -71,6 +71,10 @@
 }
 
 @media (min-width: 1440px) {
+
+  .main__headings {
+    margin: 50px;
+  }
   .navigation {
     background-color: transparent;
     transform: none;
@@ -83,7 +87,7 @@
     flex-direction: row;
     padding: 0;
     width: max-content;
-    margin-left: 798px;
+    margin-left: 720px;
     font-size: 24px;
   }
 

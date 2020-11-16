@@ -131,6 +131,8 @@ body > [type="checkbox"]:checked ~ nav {
   padding-inline-start: 3rem; }
 
 @media (min-width: 1440px) {
+  .main__headings {
+    margin: 50px; }
   .navigation {
     background-color: transparent;
     transform: none;
@@ -141,7 +143,7 @@ body > [type="checkbox"]:checked ~ nav {
     flex-direction: row;
     padding: 0;
     width: max-content;
-    margin-left: 798px;
+    margin-left: 720px;
     font-size: 24px; }
   .navigaton__lists--items a {
     background-image: none;
@@ -214,6 +216,8 @@ body > [type="checkbox"]:checked ~ nav {
   width: 60%; }
 
 @media (min-width: 1440px) {
+  .description img {
+    margin-left: 50px; }
   .main__heading,
   .description__container {
     width: 38%;
@@ -243,8 +247,9 @@ body > [type="checkbox"]:checked ~ nav {
 .main__service {
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px; }
 
 .main__service:hover {
   border: 1px solid transparent;
@@ -356,16 +361,17 @@ figcaption b {
   .business__figure--product {
     margin-top: -60px; }
   .business__see--more {
-    margin-left: auto; }
+    margin-left: auto;
+    margin-top: -90px; }
   .busisess__link {
     margin-left: auto;
-    margin-top: -70px;
     font-size: 22px; }
   .business__figure {
     margin-right: 0; } }
 
 .meeting {
-  padding-left: 10px; }
+  padding-left: 24px;
+  padding-bottom: 100px; }
 
 .meeting__heading a {
   color: #eb5757;
@@ -383,7 +389,8 @@ figcaption b {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-left: 0; }
 
 .meeting__figures img {
   border-radius: 24px;
@@ -466,6 +473,7 @@ figcaption b {
 
 .footer__lists {
   line-height: 200%;
+  font-family: "Poppins";
   padding: 0; }
 
 .footer__lists--items {
