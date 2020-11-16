@@ -12,8 +12,16 @@
   font-style: normal;
   font-display: swap; }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url("Poppins-Regular.woff2") format("woff2"), url("Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0; }
 
 h1 {
   font-family: "Heebo"; }
@@ -24,6 +32,16 @@ h2, h3 {
 
 img {
   max-width: 100%; }
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+footer {
+  background-color: #100E1D;
+  color: #ffffff;
+  padding: 40px;
+  margin: 0; }
 
 @media (min-width: 1440px) {
   main {
@@ -134,6 +152,9 @@ body > [type="checkbox"]:checked ~ nav {
   padding-left: 30px;
   padding-right: 30px; }
 
+.main__content {
+  padding-bottom: 30px; }
+
 .favorite {
   text-decoration: none;
   font-family: "Poppins";
@@ -199,3 +220,214 @@ body > [type="checkbox"]:checked ~ nav {
     line-height: 40px; }
   .favorite {
     font-size: 20px; } }
+
+.services {
+  padding-right: 24px;
+  padding-left: 24px; }
+
+.services__heading {
+  width: 65%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.services__header {
+  font-size: 24px;
+  line-height: 36px; }
+
+.main__service {
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.main__service:hover {
+  border: 1px solid transparent;
+  border-radius: 24px;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1); }
+
+.main__service:hover .started {
+  background-color: #2d9cdb;
+  color: #FFFFFF; }
+
+.main__service p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins"; }
+
+.main__service button {
+  padding: 20px;
+  border: 1px transparent solid;
+  outline: none;
+  border-radius: 16px;
+  color: #828282;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins"; }
+
+.create-icon {
+  background-color: #2d9cdb; }
+
+.code-icon {
+  background-color: #27ae60; }
+
+.lists-icon {
+  background-color: #eb5757; }
+
+.business__heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 40px; }
+
+.business__header {
+  max-width: 260px; }
+
+.business__description {
+  color: #828282;
+  line-height: 18px; }
+
+.business__figure {
+  padding-bottom: 20px;
+  padding-bottom: 20px; }
+
+figcaption b {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 27px; }
+
+.business__design figure img {
+  border-radius: 15px;
+  width: 100%; }
+
+.busisess__link {
+  text-decoration: none; }
+
+.business__see--more {
+  color: #2d9cdb;
+  border: transparent 1px solid;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "poopins";
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center; }
+
+.business__see--more img {
+  margin-left: 30px; }
+
+.meeting {
+  padding-left: 10px; }
+
+.meeting__heading a {
+  color: #eb5757;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Poppins";
+  text-decoration: none; }
+
+.meeting__heading p {
+  color: #4f4f4f;
+  font-size: 18px;
+  line-height: 24px; }
+
+.meeting__figures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.meeting__figures img {
+  border-radius: 24px;
+  width: 100%; }
+
+.meeting__first--person {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: 10px; }
+
+.meeting__second--person {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6; }
+
+.meeting__third--person {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  margin-left: -10px; }
+
+.meeting__header {
+  font-size: 36px;
+  line-height: 54px;
+  width: 280px; }
+
+.meeting__quotes--info {
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  font-family: Poppins; }
+
+.meeting__talented--description b {
+  font-size: 30px;
+  line-height: 36px;
+  color: #333333;
+  font-weight: 500; }
+
+.meeting__talented--description dfn {
+  font-size: 20px;
+  line-height: 27px;
+  color: #828282;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-style: normal; }
+
+.meeting__talented--description {
+  margin-left: 139px;
+  margin-top: -109px;
+  line-height: 50px; }
+
+.meeting__talented::before {
+  content: "";
+  background-image: url(../images/person4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px; }
+
+.footer__lists {
+  line-height: 200%;
+  padding: 0; }
+
+.footer__lists--items {
+  list-style: none;
+  padding: 0; }
+
+.footer__lists--items a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff; }
+
+.edie__icons {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+
+.edie__icons--heading {
+  font-size: 36px;
+  color: #f2f2f2; }
+
+.edie__icons--heading h4 {
+  font-family: "Heebo";
+  font-weight: 800;
+  margin: 0; }
+
+.footer__lists--form--intouch {
+  padding: 3px; }

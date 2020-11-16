@@ -1,0 +1,61 @@
+.services {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.services__heading {
+  width: 65%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.services__header {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.main__service {
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main__service:hover {
+  border: 1px solid transparent;
+  border-radius: 24px;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.main__service:hover .started {
+  background-color: #2d9cdb;
+  color: #FFFFFF;
+}
+
+.main__service p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+}
+
+.main__service button {
+  padding: 20px;
+  border: 1px transparent solid;
+  outline: none;
+  border-radius: 16px;
+  color: #828282;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+}
+
+.create-icon {
+  background-color: #2d9cdb;
+}
+
+.code-icon {
+  background-color: #27ae60;
+}
+
+.lists-icon {
+  background-color: #eb5757;
+}

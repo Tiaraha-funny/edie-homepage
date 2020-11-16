@@ -1,0 +1,53 @@
+.business__heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+
+.business__header {
+  max-width: 260px;
+}
+
+.business__description {
+  color: #828282;
+  line-height: 18px;
+}
+
+.business__figure {
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+figcaption b {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.business__design figure img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.busisess__link {
+    text-decoration: none;
+}
+
+.business__see--more {
+  color: #2d9cdb;
+  border: transparent 1px solid;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "poopins";
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.business__see--more img {
+    margin-left: 30px;
+}
