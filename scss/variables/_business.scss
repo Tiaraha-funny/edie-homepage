@@ -15,8 +15,7 @@
 }
 
 .business__figure {
-    padding-bottom: 20px;
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 figcaption b {
@@ -31,7 +30,7 @@ figcaption b {
 }
 
 .busisess__link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .business__see--more {
@@ -49,5 +48,49 @@ figcaption b {
 }
 
 .business__see--more img {
-    margin-left: 30px;
+  margin-left: 30px;
+}
+
+@media (min-width: 1440px) {
+  .business {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+
+  .business__header {
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 458px;
+  }
+
+  .business__design {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .business__figure--smartphone {
+    margin-top: 200px;
+  }
+
+  .business__figure--book {
+    margin-top: 150px;
+  }
+
+  .business__figure--product {
+    margin-top: -60px;
+  }
+
+  .business__see--more {
+    margin-left: auto;
+  }
+
+  .busisess__link {
+    margin-left: auto;
+    margin-top: -70px;
+    font-size: 22px;
+  }
+  .business__figure {
+    margin-right: 0;
+  }
 }

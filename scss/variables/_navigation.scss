@@ -83,6 +83,8 @@
     flex-direction: row;
     padding: 0;
     width: max-content;
+    margin-left: 798px;
+    font-size: 24px;
   }
 
   .navigaton__lists--items a {
@@ -92,5 +94,9 @@
 
   .dropdown__menu img {
     width: 0;
+  }
+
+  .dropdown__menu ~ h1 {
+    font-size: 36px;
   }
 }

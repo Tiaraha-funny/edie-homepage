@@ -28,11 +28,11 @@
 
 .main__service:hover .started {
   background-color: #2d9cdb;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .main__service p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-family: "Poppins";
 }
@@ -58,4 +58,24 @@
 
 .lists-icon {
   background-color: #eb5757;
+}
+
+@media (min-width: 1440px) {
+  .services {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .services__header {
+    font-size: 36px;
+    line-height: 54px;
+    width: 356px;
+  }
 }

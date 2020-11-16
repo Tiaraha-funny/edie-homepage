@@ -12,7 +12,7 @@
 
 .meeting__heading p {
   color: #4f4f4f;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
 }
 
@@ -79,18 +79,39 @@
   font-style: normal;
 }
 .meeting__talented--description {
-    margin-left: 139px;
-    margin-top: -109px;
-    line-height: 50px;
+  margin-left: 139px;
+  margin-top: -109px;
+  line-height: 50px;
 }
 
 .meeting__talented::before {
-    content: "";
-    background-image: url(../images/person4.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: block;
-    border-radius: 10px;
-    width: 90px;
-    height: 90px;
+  content: "";
+  background-image: url(../images/person4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+}
+
+@media (min-width: 1440px) {
+  .meeting {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+  }
+
+  .meeting__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .meeting__quotes--info {
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 950px;
+  }
 }
